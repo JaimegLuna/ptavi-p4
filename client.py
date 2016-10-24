@@ -8,7 +8,7 @@ import socket
 
 # Constantes. Dirección IP del servidor y contenido a enviar
 
-server=str(sys.argv[1])
+server= sys.argv[1]
 port=int(sys.argv[2])
 line=(' '.join)(sys.argv[3:])
 
